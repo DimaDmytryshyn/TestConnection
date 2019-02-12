@@ -23,7 +23,7 @@ public class ConnectionUtil implements IConnectionUtil {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                listener.onConnectionChecked(testDnsPort(address) || testHttpPort(address));
+                listener.onConnectionChecked(testHttpPort(address) || testDnsPort(address));
             }
         }).start();
     }
