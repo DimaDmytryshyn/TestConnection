@@ -1,10 +1,10 @@
 # TestConnection
 Requirements: 
-  - OpenVPN for Android need to be installed on device.
+  - OpenVPN for Android has to be installed on device.
 
 Steps:
   - Fetch repo.
   - Build project.
   - Click "Start VPN".
-  - Enter user name&password.
-  - Wait until icon became green.
+  - Enter username&password.
+  - Wait until the icon turns green.
